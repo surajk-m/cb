@@ -42,7 +42,8 @@ Customers functionality:
     - Average block time on testnet is 1 minute, while on private node it’s just 10 seconds.
     - Public testnet nodes can have agressive caching turned on
     - Public testnet nodes may be under maintenance.
-    - Download and install docker : https://www.docker.com/, Docker Pull Command for wavesplatform node-
+- Download and install docker : https://www.docker.com/
+- Docker Pull Command for wavesplatform node-
 
 ```shell
 $ docker pull wavesplatform/node
