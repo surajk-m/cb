@@ -108,6 +108,6 @@ $ surfboard test example.js
 
 ## Auto-generated UI for Waves dApps
 
-- Waves-dApp.com provides an auto-generated UI from dApp meta information and works via Waves Keeper or other Web3 providers inside the Waves ecosystem.
+- https://waves-dapp.com/ provides an auto-generated UI from dApp meta information and works via Waves Keeper or other Web3 providers inside the Waves ecosystem.
 
 - It works with mainnet, testnet, stagenet, and even customnet(localhost:6869). Just paste a dApp address in the searchfield, and the app will figure out the network from the bytes of the address and operate with the correct node.
