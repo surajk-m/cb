@@ -1,0 +1,23 @@
+{-# STDLIB_VERSION 3 #-}
+{-# CONTENT_TYPE DAPP #-}
+{-# SCRIPT_TYPE ACCOUNT #-}
+
+func getExtValueItemWhiteListStatus(item: String) = {
+    item + "_verifier_status"
+}
+
+let verifier = "3MpmyzJtmpRpMRBFtF4oLUkes3rmKQE7Hj8"
+let VERIFIED = "verified"
+let BLACKLISTED = "blacklist"
+
+@Callable(i)
+func setstatus(supplier: String, status: String) = {
+    let account = toBase58String(i.caller.bytes)
+    if ( account != verifier ) then throw("only oracle verifier are able to manage whitelist")
+    else if ( status != VERIFIED && status != BLACKLISTED ) then throw("wrong status")
+    else {
+        WriteSet([
+            DataEntry(getExtValueItemWhiteListStatus(supplier), status)
+        ])
+    }
+}
