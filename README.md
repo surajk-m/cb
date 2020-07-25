@@ -25,7 +25,7 @@ Suppliers should be able to:
 Customers functionality:
 - **Find coupons** – users should be able to see available coupons
 - **Purchase** – users should be able to buy coupons in exchange of Waves tokens only and get an NFT for each coupon. 
-- **Vote for coupons to delist them of mark as featured** – Coupon owner should be able to vote for coupons using commit-reveal voting
+- **Vote for coupons to delist them or mark as featured** – Coupon owner should be able to vote for coupons using commit-reveal voting
 - **Use coupons** – customers should be able to transfer an NFT to supplier (in an exchange of good or service with discount)
 
 ## Installation
@@ -108,6 +108,6 @@ $ surfboard test example.js
 
 ## Auto-generated UI for Waves dApps
 
-- Waves-dApp.com provides an auto-generated UI from dApp meta information and works via Waves Keeper or other Web3 providers inside the Waves ecosystem.
+- https://waves-dapp.com/ provides an auto-generated UI from dApp meta information and works via Waves Keeper or other Web3 providers inside the Waves ecosystem.
 
 - It works with mainnet, testnet, stagenet, and even customnet(localhost:6869). Just paste a dApp address in the searchfield, and the app will figure out the network from the bytes of the address and operate with the correct node.
