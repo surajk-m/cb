@@ -11,7 +11,7 @@
 
 - [Features](#features)
 - [Installation](#installation)
-- [Auto-generated UI for Waves dApps](#Auto-generated UI for Waves dApps)
+- [Auto-generated UI for Waves dApps](#Auto-generated-UI-for-Waves-dApps)
 
 ## Features
 
@@ -107,7 +107,7 @@ $ surfboard run scripts/cb.deploy.js  --variables 'dappSeed=seed phrase'
 $ surfboard test example.js
 ```
 
-### Auto-generated UI for Waves dApps
+## Auto-generated UI for Waves dApps
 
 - Waves-dApp.com provides an auto-generated UI from dApp meta information and works via Waves Keeper or other Web3 providers inside the Waves ecosystem.
 
