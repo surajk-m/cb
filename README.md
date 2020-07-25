@@ -11,6 +11,7 @@
 
 - [Features](#features)
 - [Installation](#installation)
+- [Auto-generated UI for Waves dApps](#Auto-generated UI for Waves dApps)
 
 ## Features
 
