@@ -18,7 +18,7 @@
 Suppliers should be able to:
 - **Register** – dApp should store supplier details
 - **Add/remove/update coupons** – Coupon details (name, price, expiration date) should be stored in the dApp’s storage
-- **Confirm or reject purchases** – Suppliers should get a request when a customer wants to buy a coupon. If supplier confirms the purchase, customer should get an NFT with a script. The script will allow to trade, use in dApp and transfer by customer, and burn by supplier. Each coupon 
+- **Confirm or reject purchases** – Suppliers should get a request when a customer wants to buy a coupon. If supplier confirms the purchase, customer should get an NFT with a script. The script will allow to trade, use in dApp and transfer by customer, and burn by supplier.
 - **Accept coupons from users** – Suppliers should be able to get coupon NFTs and burn them
 - **Withdraw funds** – When an NFT is burnt or expired, supplier should be able to withdraw funds (NFTs price)
 
