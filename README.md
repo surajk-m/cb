@@ -113,4 +113,4 @@ $ surfboard test example.js
 
 - It works with mainnet, testnet, stagenet, and even customnet(localhost:6869). Just paste a dApp address in the searchfield, and the app will figure out the network from the bytes of the address and operate with the correct node.
 
-- Search this address "3Mp8VhuJNx5nRcJht416a9VR5sc6KDF9dzi" [here](https://waves-dapp.com/), to view the functionalities implemented in Coupon Bazaar dApp.
+- Search this address **"3Mp8VhuJNx5nRcJht416a9VR5sc6KDF9dzi"** [here](https://waves-dapp.com/), to view the functionalities implemented in Coupon Bazaar dApp.
