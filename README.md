@@ -58,7 +58,7 @@ $ npm install -g @waves/surfboard
 ```
 
 3. Waves Keeper browser extension:
-- https://wavesplatform.com/products-keeper
+- https://docs.waves.tech/en/ecosystem/waves-keeper/
 
 All set!
 
